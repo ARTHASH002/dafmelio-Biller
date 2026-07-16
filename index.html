@@ -10,26 +10,6 @@
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyB-ztrOJRisxGr1PHKZ1gU3WBquncz_2xI",
-  authDomain: "dafmelio-billing.firebaseapp.com",
-  projectId: "dafmelio-billing",
-  storageBucket: "dafmelio-billing.firebasestorage.app",
-  messagingSenderId: "4627672699",
-  appId: "1:4627672699:web:86fd3c945482101997fcde",
-  measurementId: "G-T5ZPY30SWP"
-};
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 <style>
 :root{
   --ink:#182B4A;
@@ -352,12 +332,13 @@ tbody tr:hover{background:#FCFAF4;}
 // (Firebase Console → Project settings → General → Your apps → SDK setup)
 // ---------------------------------------------------------
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyB-ztrOJRisxGr1PHKZ1gU3WBquncz_2xI",
+  authDomain: "dafmelio-billing.firebaseapp.com",
+  projectId: "dafmelio-billing",
+  storageBucket: "dafmelio-billing.firebasestorage.app",
+  messagingSenderId: "4627672699",
+  appId: "1:4627672699:web:86fd3c945482101997fcde",
+  measurementId: "G-T5ZPY30SWP"
 };
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
